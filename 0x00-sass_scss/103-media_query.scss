@@ -1,0 +1,19 @@
+/* My Style*/
+$widths: 960 640 320;
+$font-size: 20px;
+
+h1 {
+  font-size: $font-size;
+  $font-size: $font-size - 2;
+  @each $width in $widths {
+     @media screen and (max-width: #{$width}px){
+      font-size: $font-size;
+      $font-size: $font-size - 2;
+      @if($width == 320) {
+        &.small {
+          color: #1D1D1D;
+        }
+      }
+    }
+  }
+}

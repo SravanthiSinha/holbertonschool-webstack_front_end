@@ -1,0 +1,13 @@
+/* using Mixins*/
+@mixin margin-mix($no) {
+  margin-left: $no;
+  margin-right: $no;
+}
+
+body {
+  @include margin-mix(10px);
+}
+
+div {
+  @include margin-mix(15px);
+}
