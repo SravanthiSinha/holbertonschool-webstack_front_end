@@ -1,0 +1,30 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    margin: 40px;
+}
+
+header {
+    font-size: 48px;
+    padding: 20px 0px;
+    border-bottom: 1px solid red;
+}
+
+main {
+    margin: 20px 0px;
+}
+
+article {
+    float: left;
+    width: 40%;
+    margin-right: 40px;
+}
+
+article h1,
+article h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}

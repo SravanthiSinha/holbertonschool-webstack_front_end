@@ -1,0 +1,35 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    margin: 40px;
+    background: #FFFFFF;
+    color: #000000;
+    font-size: 1em;
+}
+
+h1.sub {
+    font-size: 1.3em;
+    margin: 10px 0px 30px 0px;
+}
+
+article {
+    margin-top: 20px;
+    float: left;
+    max-width: 30%;
+}
+
+article h1 {
+    margin-bottom: 20px;
+    font-size: 1.5em;
+}
+
+article p {
+    margin: 1px 20px 0px 0px;
+}
+
+a, a:hover, a:focus, a:active, a:visited {
+    color: #3344dd;
+}

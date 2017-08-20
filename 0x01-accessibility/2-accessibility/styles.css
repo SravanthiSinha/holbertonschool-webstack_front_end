@@ -1,0 +1,53 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    margin: 40px;
+}
+
+header {
+    font-size: 3em;
+    padding: 20px 0px;
+    border-bottom: 2px solid #FF0FFF;
+    text-align: center;
+}
+
+table {
+    width: 100%;
+    margin-top: 40px;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+table tr:nth-child(1) {
+    height: 40px;
+    background: #3f3f3f;
+    color: #FFFFFF;
+}
+
+table tr td:nth-child(1) {
+    font-size: 2em;
+    width: 40%;
+}
+
+table td:nth-child(2) {
+    text-align: center;
+    width: 20%;
+}
+
+table td:nth-child(3) {
+    font-size: 1em;
+    width: 20%;
+}
+
+button {
+    width: 60%;
+    height: 40px;
+    background: #e00;
+    border: 2px solid #FF0000;
+    border-radius: 20px;
+    color: #FFFFFF;
+    cursor: pointer;
+}

@@ -1,0 +1,118 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+html, body {
+    margin: 40px;
+    background: #FFFFFF;
+    color: #000000;
+    font-size: 1em;
+    height: 100%;
+    min-height: 100%;
+}
+
+main {
+    height: 100%;
+    overflow-y: auto;
+    padding-left: 0px;
+    display: block;
+}
+
+h1 {
+    text-align: center;
+    font-size: 1.5em;
+}
+
+article {
+    padding: 0px 25px 40px;
+    display: block;
+}
+
+.field div {
+    display: inline-block;
+    max-width: 100%;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+button, html input[type="button"], input[type="reset"], input[type="submit"] {
+    -webkit-appearance: button;
+    cursor: pointer;
+}
+
+.logged_out_form {
+    text-align: center;
+    margin: 50px auto;
+    width: 100%;
+    max-width: 400px;
+    border: 1px solid #e7e7e7;
+    border-radius: 10px;
+    padding: 50px 50px;
+    background-color: #F8F8F8;
+    box-shadow: 5px 5px 5px #eee;
+}
+
+.logged_out_form img {
+    margin-top: 0px;
+    height: 80px;
+}
+
+.sm-gap {
+    margin-top: 20px;
+}
+
+.logged_out_form .field {
+    margin-top: 10px;
+}
+
+.form-control {
+    display: block;
+    width: 100%;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.4em;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+input[type="radio"], input[type="checkbox"] {
+    margin: 4px 0 0;
+    line-height: normal;
+}
+
+.logged_out_form .actions {
+    margin-top: 10px;
+}
+
+.btn {
+    display: inline-block;
+    margin-bottom: 0;
+    font-weight: normal;
+    text-align: center;
+    vertical-align: middle;
+    touch-action: manipulation;
+    cursor: pointer;
+    background-image: none;
+    border: 1px solid transparent;
+    white-space: nowrap;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    border-radius: 4px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    color: #FFFFFF;
+}
+
+.btn-primary {
+    background-color: #F80002;
+    background: linear-gradient(#F80002, #DF0002);
+    border-color: #C60002;
+}
