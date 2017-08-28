@@ -10,9 +10,8 @@ body {
     font-size: 1em;
 }
 
-h1.sub {
-    font-size: 1.3em;
-    margin: 10px 0px 30px 0px;
+h2.sub {
+    margin: 10px 0px;
 }
 
 article {
@@ -30,6 +29,22 @@ article p {
     margin: 1px 20px 0px 0px;
 }
 
-a, a:hover, a:focus, a:active, a:visited {
+a {
     color: #3344dd;
+}
+
+a:link {
+    color: #3344dd;
+}
+
+a:visited {
+    color: green;
+}
+
+a:hover {
+    color: hotpink;
+}
+
+a:active {
+    color: blue;
 }
