@@ -21,7 +21,7 @@ table {
     text-align: center;
 }
 
-table tr:nth-child(1) {
+table thead tr:nth-child(1) {
     height: 40px;
     background: #3f3f3f;
     color: #FFFFFF;
