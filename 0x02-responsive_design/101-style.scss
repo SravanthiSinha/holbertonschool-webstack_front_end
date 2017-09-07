@@ -1,0 +1,69 @@
+/*display a set of boxes in the a layout */
+@mixin my-box-mixin($number) {
+    flex: $number;
+}
+
+.container,
+body {
+    color: white;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-align-items: center;
+    align-items: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+}
+
+.container {
+    -webkit-flex-direction: row;
+    flex-direction: row;
+    -webkit-align-items: baseline;
+    align-items: baseline;
+    width: 80%;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box1,
+.box5 {
+    flex: 2;
+    height: 90px;
+    font-size: 20px;
+}
+
+.box2,
+.box4 {
+    flex: 3;
+    height: 180px;
+    font-size: 60px;
+}
+
+.box3 {
+    flex: 6;
+    height: 270px;
+    font-size: 120px;
+}
+
+.box1 {
+    background-color: #00DF6F;
+}
+
+.box2 {
+    background-color: #1E8AE1;
+}
+
+.box3 {
+    background-color: #354761;
+}
+
+.box4 {
+    background-color: #A91CB7;
+}
+
+.box5 {
+    background-color: #F37A00;
+}

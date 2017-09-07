@@ -1,0 +1,17 @@
+/* changes the body background color depending of the window size */
+$red-bgcolor: #FF0000;
+$green-bgcolor: #00FF00;
+$blue-bgcolor: #0000FF;
+@mixin my-background-mixin($color) {
+    background-color: $color;
+}
+
+body {
+    @include my-background-mixin($red-bgcolor);
+    @media only screen and (max-width: 900px) {
+         @include my-background-mixin($green-bgcolor);
+    }
+    @media only screen and (max-width: 500px) {
+         @include my-background-mixin($blue-bgcolor);
+    }
+}

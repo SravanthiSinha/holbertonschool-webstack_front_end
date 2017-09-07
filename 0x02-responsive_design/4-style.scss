@@ -1,0 +1,14 @@
+/*  displays a specific <h1> depending of the window size */
+h1.mobile {
+    display: none;
+    @media only screen and (max-width: 600px) {
+        display: block;
+    }
+}
+
+h1 {
+    display: block;
+    @media only screen and (max-width: 600px) {
+        display: none;
+    }
+}

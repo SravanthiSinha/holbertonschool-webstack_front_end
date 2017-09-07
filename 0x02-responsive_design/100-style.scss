@@ -1,0 +1,13 @@
+/*changes the text color when the page is printed*/
+$red-textcolor: #FF0000;
+$print-textcolor: #000000;
+@mixin my-color-mixin($color) {
+    color: $color;
+}
+
+body {
+    @include my-color-mixin($red-textcolor);
+    @media print{
+         @include my-color-mixin($print-textcolor);
+    }
+}

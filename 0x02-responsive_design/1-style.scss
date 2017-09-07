@@ -1,0 +1,14 @@
+/* changes the body background color depending of the window size */
+$default-bgcolor: #FF0000;
+$min-bgcolor: #00FF00;
+
+@mixin my-background-mixin($color) {
+    background-color: $color;
+}
+
+body {
+    @include my-background-mixin($default-bgcolor);
+    @media only screen and (max-width: 900px) {
+         @include my-background-mixin($min-bgcolor);
+    }
+}

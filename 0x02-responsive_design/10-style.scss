@@ -1,0 +1,33 @@
+/*displays each box with different size*/
+body {
+    color: white;
+}
+
+div {
+    height: 50px;
+    line-height: 50px;
+}
+
+.container {
+    display: -webkit-flex;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.box1 {
+    background-color: #FF0000;
+    -webkit-flex: 1 100%;
+    flex: 1 100%;
+}
+
+.box2 {
+    background-color: #00FF00;
+    -webkit-flex: 1 33%;
+    flex: 1;
+}
+
+.box3 {
+    background-color: #0000FF;
+    -webkit-flex: 2;
+    flex: 2;
+}
