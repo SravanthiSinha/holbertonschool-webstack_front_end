@@ -28,8 +28,9 @@
 
 * 100-style.scss - changes the text color when the page is printed
 
-* 101-style.scss -  display a set of boxes in the same layout as the example 
+* 101-style.scss -  display a set of boxes in the same layout as below 
 
+![alt text](https://github.com/SravanthiSinha/holbertonschool-webstack_front_end/raw/master/0x02-responsive_design/images/101-result.jpg "101-result")
 
 ## Useful Resources:
 * [Responsive design](https://internetingishard.com/html-and-css/responsive-design/)
