@@ -6,6 +6,7 @@
     flex-direction: $direction;
     .item {
         height: 200px;
+        width: 200px;
         background-color: #FF0000;
         display: flex;
         justify-content: center;
